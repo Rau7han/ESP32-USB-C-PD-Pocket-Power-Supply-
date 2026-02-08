@@ -1,0 +1,42 @@
+# Arduino/PlatformIO build artifacts
+*.o
+*.a
+*.elf
+*.bin
+*.map
+*.hex
+*.eep
+*.lss
+*.sym
+
+# Build directories
+build/
+.build/
+.pio/
+.pioenvs/
+.piolibdeps/
+cmake-build-*/
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Python cache (if using scripts)
+__pycache__/
+*.py[cod]
+
+# Documentation build
+docs/_build/
